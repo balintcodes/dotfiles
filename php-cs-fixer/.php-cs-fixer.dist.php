@@ -16,6 +16,7 @@ $finder = new PhpCsFixer\Finder()
 
 return new PhpCsFixer\Config()
     ->setRules([
+		'@Symfony'				 => true,
         '@Symfony:risky'         => true,
         'binary_operator_spaces' => [
             'default'   => 'single_space',
